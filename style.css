@@ -35,9 +35,10 @@ a{
 .headr2{
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
-    padding: 20px 40rem;
+    margin-top: 30px;
+    padding: 20px 26rem;
 }
+
 
 .boxhead1 a{
     color: #fff;
@@ -93,6 +94,18 @@ a{
     height: 340px;
     position: relative; 
     transition:.4s ease; 
+}
+@media(max-width:576px) {
+    #low{
+        padding: 4px 1rem;
+    }
+    .photo-all{
+        flex-direction: column;
+    }
+    .box{
+        width: 100% !important;
+        height: auto;
+    }
 }
 
 .box:hover{
@@ -161,6 +174,18 @@ a{
     gap: 26px;
     text-align: center;
 }
+@media(max-width:576px) {
+    #low2{
+        padding: 4px 1rem;
+    }
+    .img2-all{
+        flex-direction: column;
+    }
+    .box2{
+        width: 100% !important;
+        height: auto;
+    }
+}
 
 .box2{
     width: 23%;
@@ -198,3 +223,5 @@ a{
     font-size: 18px;
     margin-top: 12px;
 }
+
+
